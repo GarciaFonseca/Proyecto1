@@ -1,0 +1,116 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;  
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.lista a{
+    text-decoration: none;
+    color:black;
+    padding: 1px;
+    font-size: 15px;
+}
+
+.links ul{
+    padding-left: 10%;
+}
+
+.boton{
+    margin-bottom: 20px;
+}
+
+.links h2{
+    padding-left: 40%;
+    color: black;
+    font-size: 30px;
+}
+
+.fondo{
+    position: relative;
+    background-color: rgb(245, 193, 96);
+    background-size: cover;
+    height: 250px;   
+}
+
+.fondo img{
+    position: relative;
+    margin: auto;
+    height: 220px;
+    width: 220px;
+    top: 14px;
+    left: 42%;
+}
+
+.data, 
+.fullstack{
+    display: flex;
+    flex-direction: column; 
+    /* padding-left: 30%; */
+    align-items: center ;
+}
+
+.fechas{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    width: 80% ;
+    text-align: center;
+    justify-content:space-around ;
+}
+
+.fechas h3{
+    padding-top: 25%;
+}
+
+.fullstack{
+    display: flex;
+    margin: auto;
+    width: fit-content
+}
+
+.data{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.fecha1,
+.fecha2,
+.fecha3,
+.fecha4{
+    border: 1px solid orange;
+    width: 100%;
+    margin: 30px;
+}
+
+.dia {
+    font-size: 25px;
+    margin-top: -10px;
+
+    text-align: center;
+}
+
+.footer{
+    text-align-last: center;
+    padding-top: 30px;
+    position: relative;
+    background-color: rgb(239, 192, 104);
+    background-size: cover;
+    height: 110px;
+    align-self: center;
+    margin-top: 70px;
+ }
+
+ .foot{
+    align-self: center;
+ }

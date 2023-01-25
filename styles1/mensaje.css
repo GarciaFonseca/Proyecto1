@@ -1,0 +1,40 @@
+.fondo{
+    position: relative;
+    background-color: rgb(245, 193, 96);
+    background-size: cover;
+    height: 250px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+body h2{
+    text-align: center  ;
+}
+
+.fondo{
+    display: flex;
+    flex-direction: column;
+    text-align-last: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: black
+}
+
+a:hover {
+    color:  orange;
+    cursor: pointer;
+  }

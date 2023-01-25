@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles1/contacto2.css">
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <h2>Campsite Academy</h2>
+            <ul>
+                <li class="lista"><a href="index.html">Home</a></li>
+                <li class="lista"><a href="Conocenos2.html">Conócenos</a></li>
+                <li class="lista"><a href="tabla.html"> Estudiantes</a></li>
+                <li class="lista"><a href="contacto2.css"> Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <div class="fondo">
+        <img src="./img/giphy.gif" alt="#">
+    </div>
+
+    <h1>Formulario de contacto</h1>
+
+    <form action="mensaje.html">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div class="info">
+                <div class="datos">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" required minlength="3" maxlength="25">
+                </div>
+                <div class="datos">
+                    <label for="surname">Apellido</label>
+                    <input type="text" id="surname" required minlength="3" maxlength="25">
+                </div>
+                <div class="datos">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="datos1">
+                    <label for="age">Edad</label>
+                    <div class="input">
+                        <input type="radio" name="edad" id="">18-25
+                        <input type="radio" name="edad" id="">26-35
+                        <input type="radio" name="edad" id="">36-45
+                    </div>
+                </div>
+            </div>
+            <div class="datos2">
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" id="nacimiento">
+
+            </div>
+            <div class="datos3">
+                <label for="ciudad">Provincia</label>
+                <select required name="provincia" class="form-control">
+                    <option value="">Elige tu Provincia</option>
+                    <option value="Álava/Araba">Álava/Araba</option>
+                    <option value="Albacete">Albacete</option>
+                    <option value="Alicante">Alicante</option>
+                    <option value="Almería">Almería</option>
+                    <option value="Asturias">Asturias</option>
+                    <option value="Ávila">Ávila</option>
+                    <option value="Badajoz">Badajoz</option>
+                    <option value="Baleares">Baleares</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Burgos">Burgos</option>
+                    <option value="Cáceres">Cáceres</option>
+                    <option value="Cádiz">Cádiz</option>
+                    <option value="Cantabria">Cantabria</option>
+                    <option value="Castellón">Castellón</option>
+                    <option value="Ceuta">Ceuta</option>
+                    <option value="Ciudad Real">Ciudad Real</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Cuenca">Cuenca</option>
+                    <option value="Gerona/Girona">Gerona/Girona</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Guadalajara">Guadalajara</option>
+                    <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Huesca">Huesca</option>
+                    <option value="Jaén">Jaén</option>
+                    <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Las Palmas">Las Palmas</option>
+                    <option value="León">León</option>
+                    <option value="Lérida/Lleida">Lérida/Lleida</option>
+                    <option value="Lugo">Lugo</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Málaga">Málaga</option>
+                    <option value="Melilla">Melilla</option>
+                    <option value="Murcia">Murcia</option>
+                    <option value="Navarra">Navarra</option>
+                    <option value="Orense/Ourense">Orense/Ourense</option>
+                    <option value="Palencia">Palencia</option>
+                    <option value="Pontevedra">Pontevedra</option>
+                    <option value="Salamanca">Salamanca</option>
+                    <option value="Segovia">Segovia</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Soria">Soria</option>
+                    <option value="Tarragona">Tarragona</option>
+                    <option value="Tenerife">Tenerife</option>
+                    <option value="Teruel">Teruel</option>
+                    <option value="Toledo">Toledo</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Valladolid">Valladolid</option>
+                    <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                    <option value="Zamora">Zamora</option>
+                    <option value="Zaragoza">Zaragoza</option>
+                </select>
+            </div>
+            <div class="datos">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion">
+            </div>
+
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Conocimientos previos</legend>
+            <div class="conocimiento">
+                <div class="encabezado">
+                    <label for="conocimientos">¿Qué sabes de programación?</label>
+                </div>
+                <div class="opciones">
+                    <div class="opciones1">
+                        <div>
+                            <input type="checkbox" name="" id="" value="Java">Java
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" value="JavaScript">JavaScript
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" value="HTML">HTML
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" value="CSS">CSS
+                        </div>
+                    </div>
+                    <div class="opciones2">
+                        <div>
+                            <input type="checkbox" name="" id="" value="Python">Python
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" value="C++">C++
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" value="ReactJS">ReactJS
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" value="Angular">Angular
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nuestros cursos</legend>
+            <div class="interes">
+                <select name="" id="">
+                    <option value="">Elige tu curso</option>
+                    <optgroup label="Full-time">
+                        <option value="DataScience">Data Science</option>
+                        <option value="Full-Stack">Full-Stack MEARN</option>
+                    </optgroup>
+                    <optgroup label="Part-Time">
+                        <option value="DataScience">Data Science</option>
+                        <option value="Full-Stack">Full-Stack MEARN</option>
+                    </optgroup>
+
+                </select>
+            </div>
+        </fieldset>
+        <div class="mensaje">
+            <p>Déjanos un mensaje</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </div>
+        <div class="botones">
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+
+
+
+
+
+    <div class="contenido">
+
+
+        <div class="contenido1">
+            
+            <div class="info">
+                <p>
+                    Para cualquier duda o información sobre los cursos, ¡contáctanos!
+                </p>
+                <div class="icono">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>
+                        : +34626482244
+                    </p>
+                </div>
+                <div class="icono">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>
+                        : hello@campsite.academy
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+<div class="footer">
+    <footer>
+        <div class="foot">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <p>Campsite Academy</p>
+            <p>© 2023 Campsite</p>
+
+        </div>
+    </footer>
+</div>
+
+</html>

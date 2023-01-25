@@ -1,0 +1,94 @@
+.formato{
+    position: relative;
+    background:url("./programacion-background.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+.logo img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    top: -30px;
+    left: 45%;
+
+}
+
+.formato h2{
+    text-align: center;
+    color: orange;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+    padding: 1px;
+}
+
+.lista a{
+    text-decoration: none;
+    color:black;
+    background-color: lightgray;
+    padding: 1px;
+    border: solid 1px black;
+}
+
+.contenido1{
+    text-align: center;
+}
+
+.contenido1 p{
+    display: flexbox;
+    width: 50%;
+    padding-left: 25%;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+.nombre2 h3{
+    padding-left: 50%;
+    padding-top: 5%;
+}
+
+.nombre3 {
+    padding-left: 5%;
+}
+
+.contenido2{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido2 p{
+    text-align: justify;
+    line-height: 1.5em;
+    display: flexbox;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 5%;
+}
+
+.contenido3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+
+.contenido3 p{
+    text-align: justify;
+    line-height: 1.5em;
+    display: flexbox;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.contenido2 img{
+    border-radius: 50%;
+}
+
+.contenido3 img{
+    border-radius: 50%;
+}

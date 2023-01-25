@@ -1,0 +1,129 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;  
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.lista a{
+    text-decoration: none;
+    color:black;
+    padding: 1px;
+    font-size: 15px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.links ul{
+    padding-left: 10%;
+}
+
+.links h2{
+    padding-left: 40%;
+    color: black;
+    font-size: 30px;
+}
+
+.fondo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: relative; */
+    border: solid 2px rgb(240, 165, 73);
+    /* background-size: cover; */
+    height: 250px; 
+      
+}
+.fondo div{
+    width: 40%;
+    padding: 40px;
+}
+
+.fondo img{
+   
+    height: 220px;
+    width: 220px;
+    top: 4px;
+    /* left: 15%; */
+}
+
+.fondo .img{
+    place-self: center;
+    text-align: end;
+}
+
+.contenido1{
+   width: 40%;
+color: black;
+}
+
+.contenido1 h3{
+    font-size: 25px;
+}
+
+.mentores{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    /* text-align: justify; */
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.equipo{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.alexandra,
+.juan{
+    border: solid 1px orange;
+    width: 30%;
+}
+
+.contenido2 p,
+.contenido3 p{
+    text-align: justify;
+    margin: 30px;
+}
+
+.nombre2,
+.nombre3{
+    text-align: center;
+}
+
+.contenido2,
+.contenido3{
+    text-align: center;
+}
+
+.contenido2 img,
+.contenido3 img{
+    width: 145px; 
+    height: 126px;
+}
+
+.footer{
+    text-align-last: center;
+    padding-top: 30px;
+    position: relative;
+    background-color: rgb(239, 192, 104);
+    background-size: cover;
+    height: 110px;
+    align-self: center;
+    margin-top: 70px;
+ }
+
+ .foot{
+    align-self: center;
+ }

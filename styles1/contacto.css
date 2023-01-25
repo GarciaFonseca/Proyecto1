@@ -1,0 +1,47 @@
+.formato{
+    position: relative;
+    background:url("./programacion-background.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+.logo img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    top: -30px;
+    left: 45%;
+
+}
+
+.formato h2{
+    text-align: center;
+    color: orange;
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+    padding: 1px;
+}
+
+.lista a{
+    text-decoration: none;
+    color:black;
+    background-color: lightgray;
+    padding: 1px;
+    border: solid 1px black;
+}
+
+.contenido {
+    text-align: center;
+}
+.contenido h3{
+    padding-top: 60px;
+}
+.contenido p{
+    padding-top: 50px;
+}

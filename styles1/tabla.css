@@ -1,0 +1,145 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+body{
+    font-family: sans-serif;
+}
+.lista a{
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+    font-size: 15px;
+}
+
+.links ul{
+    padding-left: 10%;
+}
+
+.boton{
+    margin-bottom: 20px;
+}
+
+.links h2{
+    padding-left: 40%;
+    color: black;
+    font-size: 30px;
+}
+
+.fondo{
+    position: relative;
+    background-color: rgb(245, 193, 96);
+    background-size: cover;
+    height: 250px;
+}
+
+.fondo img{
+    position: relative;
+    margin: auto;
+    height: 220px;
+    width: 220px;
+    top: 14px;
+    left: 42%;
+}
+
+.table{
+   
+    border: 1px solid black;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+
+}
+
+.thead{
+    background-color: rgb(245, 193, 96);
+}
+
+.table tr th,
+.table tr td{
+    padding: 5px;
+}
+
+.table tr:hover{
+    /* transform: scale(1.1); */
+    background-color: rgb(244, 217, 82);
+    
+    
+}
+
+.tfoot tr{
+    border-collapse: collapse;
+}
+
+.listas{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.ordenada,
+.nordenada{
+    background-color: rgb(245, 193, 96);
+    width: 200px;
+    text-align: left;
+    padding: 5px;
+}
+.encabezado{
+    text-align: center;
+    font-size: 20px;;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: justify;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 5px 5px orange;
+}
+.descripcion:hover{
+    transform: scale(1.1);
+}
+
+.descripcion p{
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.nordenada .css{
+    list-style-type: none;
+}
+
+.footer{
+    text-align-last: center;
+    padding-top: 30px;
+    position: relative;
+    background-color: rgb(239, 192, 104);
+    background-size: cover;
+    height: 110px;
+    align-self: center;
+ }
+
+ .foot{
+    align-self: center;
+ }

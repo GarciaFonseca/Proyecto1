@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .links {
     display: flex;
     flex-direction: row;
-    align-items: baseline;  
+    align-items: baseline;
 }
 
 body{
@@ -33,13 +39,14 @@ body{
     padding-left: 40%;
     color: black;
     font-size: 30px;
+    padding-top: 15px;
 }
 
 .fondo{
     position: relative;
     background-color: rgb(245, 193, 96);
     background-size: cover;
-    height: 250px;   
+    height: 250px;
 }
 
 .fondo img{
@@ -51,12 +58,12 @@ body{
     left: 42%;
 }
 
-.data, 
+.data,
 .fullstack{
     display: flex;
-    flex-direction: column; 
-    /* padding-left: 30%; */
+    flex-direction: column;
     align-items: center ;
+
 }
 
 .fechas{
@@ -88,15 +95,17 @@ body{
 .fecha2,
 .fecha3,
 .fecha4{
+    display: flex;
+    flex-direction: column;
     border: 1px solid orange;
-    width: 100%;
-    margin: 30px;
+    width: 80%;
+    margin: 50px;
+    line-height: 40px;
 }
+
 
 .dia {
     font-size: 25px;
-    margin-top: -10px;
-
     text-align: center;
 }
 
